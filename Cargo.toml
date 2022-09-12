@@ -1,0 +1,11 @@
+[workspace]
+resolver = "2"
+
+members = [
+  "test-1000",
+  "one-of-1000",
+]
+
+[profile.release]
+lto = true
+opt-level = 's'
