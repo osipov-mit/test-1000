@@ -4,7 +4,4 @@ build:
 install:
 	npm install
 
-test:
-	npm t
-
-all: install build test
+all: install build
